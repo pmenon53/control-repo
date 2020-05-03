@@ -29,6 +29,3 @@ node default {
   # Example:
   #   class { 'my_class': }
 }
-node pmenon531c.mylabserver.com {
-  include ngrok
-}
