@@ -16,3 +16,6 @@ forge 'https://forge.puppet.com'
 #  git:    'https://github.com/puppetlabs/puppetlabs-apache',
 #  branch: 'docs_experiment'
 mod 'gabe-ngrok', '1.2.1'
+mod 'puppetlabs-stdlib', '6.3.0'
+mod 'puppetlabs-concat', '6.2.0'
+mod 'puppet-archive', '4.4.0'
