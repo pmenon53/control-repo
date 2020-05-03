@@ -32,7 +32,7 @@ node default {
 node pmenon531c.mylabserver.com {
   include ngrok
   ngrok::tunnel { 'webhook':
-    proto => 'https',
+    proto => 'http',
     addr  => '8170',
   }
 }
