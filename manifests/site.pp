@@ -30,7 +30,9 @@ node default {
   #   class { 'my_class': }
 }
 node pmenon531c.mylabserver.com {
-  include ngrok
+  class { 'ngrok':
+    authtoken       => '0lkjaidwshytMGYT3dyy0928301983C2b7H2Mw5RnnqvZY',
+  }
   ngrok::tunnel { 'webhook':
     proto => 'http',
     addr  => '8170',
