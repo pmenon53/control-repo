@@ -34,4 +34,5 @@ node pmenon531c.mylabserver.com {
   ngrok::tunnel { 'webhook':
     proto => 'tcp',
     addr  => '8170',
+  }
 }
